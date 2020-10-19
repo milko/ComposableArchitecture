@@ -11,6 +11,12 @@
 		C4D51B57253DB24900D4B4AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D51B56253DB24900D4B4AA /* ContentView.swift */; };
 		C4D51B59253DB24B00D4B4AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D51B58253DB24B00D4B4AA /* Assets.xcassets */; };
 		C4D51B5C253DB24B00D4B4AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D51B5B253DB24B00D4B4AA /* Preview Assets.xcassets */; };
+		C4D51B65253DB29200D4B4AA /* Wolfram.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D51B64253DB29200D4B4AA /* Wolfram.swift */; };
+		C4D51B68253DB55F00D4B4AA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D51B67253DB55F00D4B4AA /* Model.swift */; };
+		C4D51B6B253DB5F900D4B4AA /* Reducers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D51B6A253DB5F900D4B4AA /* Reducers.swift */; };
+		C4D51B71253DB72C00D4B4AA /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D51B70253DB72C00D4B4AA /* CounterView.swift */; };
+		C4D51B74253DB7A000D4B4AA /* FavoritePrimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D51B73253DB7A000D4B4AA /* FavoritePrimesView.swift */; };
+		C4D51B77253DB88500D4B4AA /* IsPrimeModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D51B76253DB88500D4B4AA /* IsPrimeModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		C4D51B58253DB24B00D4B4AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4D51B5B253DB24B00D4B4AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4D51B5D253DB24B00D4B4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D51B64253DB29200D4B4AA /* Wolfram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wolfram.swift; sourceTree = "<group>"; };
+		C4D51B67253DB55F00D4B4AA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C4D51B6A253DB5F900D4B4AA /* Reducers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducers.swift; sourceTree = "<group>"; };
+		C4D51B70253DB72C00D4B4AA /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		C4D51B73253DB7A000D4B4AA /* FavoritePrimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePrimesView.swift; sourceTree = "<group>"; };
+		C4D51B76253DB88500D4B4AA /* IsPrimeModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPrimeModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				C4D51B54253DB24900D4B4AA /* ComposableArchitectureApp.swift */,
+				C4D51B64253DB29200D4B4AA /* Wolfram.swift */,
 				C4D51B56253DB24900D4B4AA /* ContentView.swift */,
+				C4D51B73253DB7A000D4B4AA /* FavoritePrimesView.swift */,
 				C4D51B58253DB24B00D4B4AA /* Assets.xcassets */,
 				C4D51B5D253DB24B00D4B4AA /* Info.plist */,
 				C4D51B5A253DB24B00D4B4AA /* Preview Content */,
+				C4D51B67253DB55F00D4B4AA /* Model.swift */,
+				C4D51B6A253DB5F900D4B4AA /* Reducers.swift */,
+				C4D51B70253DB72C00D4B4AA /* CounterView.swift */,
+				C4D51B76253DB88500D4B4AA /* IsPrimeModalView.swift */,
 			);
 			path = ComposableArchitecture;
 			sourceTree = "<group>";
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4D51B65253DB29200D4B4AA /* Wolfram.swift in Sources */,
+				C4D51B77253DB88500D4B4AA /* IsPrimeModalView.swift in Sources */,
+				C4D51B6B253DB5F900D4B4AA /* Reducers.swift in Sources */,
 				C4D51B57253DB24900D4B4AA /* ContentView.swift in Sources */,
+				C4D51B71253DB72C00D4B4AA /* CounterView.swift in Sources */,
 				C4D51B55253DB24900D4B4AA /* ComposableArchitectureApp.swift in Sources */,
+				C4D51B68253DB55F00D4B4AA /* Model.swift in Sources */,
+				C4D51B74253DB7A000D4B4AA /* FavoritePrimesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

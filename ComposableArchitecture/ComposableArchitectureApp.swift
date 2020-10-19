@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import Combine
+
+//
+// Application state.
+//
+var state = AppState()
 
 @main
 struct ComposableArchitectureApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(store: Store(initialValue: AppState(), reducer: appReducer))
         }
     }
 }
