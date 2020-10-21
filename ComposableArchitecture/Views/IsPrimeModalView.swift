@@ -39,8 +39,13 @@ struct IsPrimeModalView: View {
     }
 }
 
-//struct IsPrimeModalView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        IsPrimeModalView()
-//    }
-//}
+struct IsPrimeModalView_Previews: PreviewProvider {
+    static var previews: some View {
+        IsPrimeModalView(
+            store: Store(
+                initialValue: AppState(count: 3),
+                reducer: appReducer
+            )
+        )
+    }
+}
