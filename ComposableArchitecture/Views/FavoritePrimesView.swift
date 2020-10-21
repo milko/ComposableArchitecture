@@ -24,8 +24,13 @@ struct FavoritePrimesView: View {
     }
 }
 
-//struct FavoritePrimesView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        FavoritePrimesView()
-//    }
-//}
+struct FavoritePrimesView_Previews: PreviewProvider {
+    static var previews: some View {
+        FavoritePrimesView(
+            store: Store(
+                initialValue: AppState(favoritePrimes: [3, 5]),
+                reducer: appReducer
+            )
+        )
+    }
+}

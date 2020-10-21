@@ -45,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4B3B2EF2540D39C00A526B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4D51B56253DB24900D4B4AA /* ContentView.swift */,
+				C4D51B70253DB72C00D4B4AA /* CounterView.swift */,
+				C4D51B73253DB7A000D4B4AA /* FavoritePrimesView.swift */,
+				C4D51B76253DB88500D4B4AA /* IsPrimeModalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C4D51B48253DB24900D4B4AA = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +75,14 @@
 		C4D51B53253DB24900D4B4AA /* ComposableArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				C4B3B2EF2540D39C00A526B7 /* Views */,
 				C4D51B54253DB24900D4B4AA /* ComposableArchitectureApp.swift */,
 				C4D51B64253DB29200D4B4AA /* Wolfram.swift */,
-				C4D51B56253DB24900D4B4AA /* ContentView.swift */,
-				C4D51B73253DB7A000D4B4AA /* FavoritePrimesView.swift */,
 				C4D51B58253DB24B00D4B4AA /* Assets.xcassets */,
 				C4D51B5D253DB24B00D4B4AA /* Info.plist */,
 				C4D51B5A253DB24B00D4B4AA /* Preview Content */,
 				C4D51B67253DB55F00D4B4AA /* Model.swift */,
 				C4D51B6A253DB5F900D4B4AA /* Reducers.swift */,
-				C4D51B70253DB72C00D4B4AA /* CounterView.swift */,
-				C4D51B76253DB88500D4B4AA /* IsPrimeModalView.swift */,
 			);
 			path = ComposableArchitecture;
 			sourceTree = "<group>";
